@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+<Fragment>
+  <div
+    className="proof-line proof-line-short error"
+  >
+    <div
+      className="proof-linenumber"
+    >
+      1
+    </div>
+    <div
+      className="latex"
+    >
+      <Latex
+        displayMode={false}
+      >
+        $p \\Longrightarrow q$
+      </Latex>
+    </div>
+    <div
+      className="proofStep"
+    >
+      <Connect(Rule)
+        key="rule0"
+        lhs={
+          Object {
+            "type": "literal",
+            "value": "p",
+          }
+        }
+        path={
+          Array [
+            "steps",
+            0,
+            "ast",
+          ]
+        }
+        rhs={
+          Object {
+            "type": "literal",
+            "value": "q",
+          }
+        }
+        symbol="implies"
+        type="binary"
+      />
+    </div>
+    <button
+      className="toggle"
+      onClick={[Function]}
+    >
+      Toggle
+    </button>
+    <Connect(DependencyList)
+      dependencies={Array []}
+      index={0}
+      path={
+        Array [
+          "steps",
+          0,
+          "dependencies",
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

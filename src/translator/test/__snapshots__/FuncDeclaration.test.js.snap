@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FuncDef test latex 1`] = `"define \\\\ friends(Person, Person): Bool"`;
+
+exports[`func Def Dragon test 1`] = `
+"(declare-sort Dragon)
+(declare-const P Bool)
+(assert (not P))
+(check-sat)"
+`;
+
+exports[`func Def Happy test 1`] = `
+"(declare-sort Reward)
+(declare-sort Dragon)
+(declare-sort Human)
+(declare-const P Bool)
+(assert (not P))
+(check-sat)"
+`;
+
+exports[`func Def test 1`] = `
+"(declare-sort Person)
+(declare-const P Bool)
+(assert (not P))
+(check-sat)"
+`;

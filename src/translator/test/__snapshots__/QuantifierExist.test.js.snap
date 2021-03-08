@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Qualifier Exist test latex 1`] = `
+Array [
+  "\\\\exist x:Type.P \\\\Longrightarrow Q",
+  "P",
+]
+`;
+
+exports[`Quantifier Exist test 1`] = `
+"(declare-const P Bool)
+(declare-const Q Bool)
+(assert (exist ((x Type))(=> P Q)))
+(assert (not P))
+(check-sat)"
+`;

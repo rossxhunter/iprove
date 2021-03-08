@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Iff test 1`] = `
+"(declare-const P Bool)
+(declare-const Q Bool)
+(assert (iff P Q))
+(assert (not P))
+(check-sat)"
+`;
+
+exports[`Iff test latex 1`] = `
+Array [
+  "P \\\\Longleftrightarrow Q",
+  "P",
+]
+`;

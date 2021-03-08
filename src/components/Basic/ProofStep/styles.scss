@@ -1,0 +1,21 @@
+.lineNumber {
+  display: inline-block;
+  text-align: left;
+  font-size: 12pt;
+  padding: 10pt;
+  vertical-align: middle;
+}
+.step {
+  display: flex;
+}
+.latex {
+  display:none;
+}
+.showLatex {
+  display: flex;
+  font-size:14px;
+  flex:1;
+}
+.proofStep {
+  flex: 1;
+}

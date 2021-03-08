@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nested test 1 1`] = `
+"(declare-const P Bool)
+(declare-const Q Bool)
+(assert (not (and (and P Q) P)))
+(check-sat)"
+`;
+
+exports[`Nested test latex 1`] = `
+Array [
+  "P \\\\land Q \\\\land P",
+]
+`;

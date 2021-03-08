@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`False test 1`] = `
+"(declare-const P Bool)
+(assert (or P false))
+(assert (not P))
+(check-sat)"
+`;
+
+exports[`False test latex 1`] = `
+Array [
+  "P \\\\lor \\\\bot",
+  "P",
+]
+`;

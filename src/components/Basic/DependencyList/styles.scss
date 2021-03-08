@@ -1,0 +1,16 @@
+.stepDependencies {
+  float: right;
+  position: relative;
+}
+
+.addDependency {
+  width: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #eee;
+  text-decoration: none;
+}
+
+.addDependency:hover {
+  cursor: pointer;
+}

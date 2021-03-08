@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Not test 1`] = `
+"(declare-const P Bool)
+(assert (not (not P)))
+(check-sat)"
+`;
+
+exports[`Not test latex 1`] = `
+Array [
+  "\\\\lnot P",
+]
+`;

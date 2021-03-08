@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Implies test 1`] = `
+"(declare-const P Bool)
+(declare-const Q Bool)
+(assert (not (=> P Q)))
+(check-sat)"
+`;
+
+exports[`Implies test latex 1`] = `
+Array [
+  "P \\\\Longrightarrow Q",
+]
+`;

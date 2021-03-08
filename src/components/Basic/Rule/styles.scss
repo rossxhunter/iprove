@@ -1,0 +1,22 @@
+.rule {
+  display: flex;
+  align-items: center;
+}
+.ruleInput {
+  outline: none;
+  width: 20px;
+}
+.wideRuleInput {
+  outline: none;
+  width: 50px;
+}
+.remove {
+  background: #c73232;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 3px 5px;
+  margin-left: 10px;
+  height: 14px;
+  cursor: pointer;
+}

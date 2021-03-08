@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`True test 1`] = `
+"(declare-const P Bool)
+(assert (not (=> P true)))
+(check-sat)"
+`;
+
+exports[`True test latex 1`] = `
+Array [
+  "P \\\\Longrightarrow \\\\top",
+]
+`;

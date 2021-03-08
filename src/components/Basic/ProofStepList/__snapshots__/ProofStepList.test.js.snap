@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+<Fragment>
+  <ProofStep
+    index={0}
+    key="step0"
+    offset={0}
+    step={
+      Object {
+        "ast": Object {
+          "lhs": Object {
+            "type": "literal",
+            "value": "p",
+          },
+          "rhs": Object {
+            "type": "literal",
+            "value": "q",
+          },
+          "symbol": "implies",
+          "type": "binary",
+        },
+        "dependencies": Array [],
+      }
+    }
+    type="givens"
+    z3="unsat"
+  />
+  <div
+    className="proof-line"
+  >
+    <RulePlaceholder
+      path={
+        Array [
+          "givens",
+          1,
+        ]
+      }
+      wide={true}
+    />
+    <div
+      className="proof-feedback"
+    />
+  </div>
+</Fragment>
+`;

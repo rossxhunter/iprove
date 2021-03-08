@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Or test 1`] = `
+"(declare-const P Bool)
+(declare-const Q Bool)
+(assert (or P Q))
+(assert (not P))
+(check-sat)"
+`;
+
+exports[`Or test latex 1`] = `
+Array [
+  "P \\\\lor Q",
+  "P",
+]
+`;

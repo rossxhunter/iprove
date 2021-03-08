@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+<div
+  className="controlList"
+>
+  <ControlBlock
+    exprLeft={true}
+    exprRight={true}
+    label="Binary Rule"
+    symbol="?"
+    type="binary"
+  />
+  <ControlBlock
+    exprRight={true}
+    label="Unary Rule"
+    symbol="?"
+    type="unary"
+  />
+  <ControlBlock
+    label="Literal"
+    symbol="P"
+    type="identifier"
+  />
+  <ControlBlock
+    label="True"
+    symbol="⊤"
+    type="true"
+  />
+  <ControlBlock
+    label="False"
+    symbol="⊥"
+    type="false"
+  />
+</div>
+`;
